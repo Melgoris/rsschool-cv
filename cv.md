@@ -8,20 +8,20 @@
 >Most of my attention was on ***JavaScript*** itself, and I usually looked for layouts online and modified them for my needs. I partially completed a couple of small courses on ***Udemy*** and also did self-learning through documentation and ***YouTube***. After I got a bit familiar with ***JavaScript***, I moved on to ***React***.
 >
 >All my self-learning was stretched over years: I would code for a few weeks, then take breaks due to different circumstances, then come back again, and so on in cycles. Now I’ve decided that I want to take this more seriously and approach the learning process in a more structured way. ***RS School*** seems very appealing in this regard.
-# 
+<hr style="height:0.5px;">
 >#### Contact information:
 >- **Location:** Ukraine
 >- **Phone:** +38 068 0000000
 >- **E-mail:** web.vasilisa@gmail.com
 >- **Git-Hub:** [Melgoris](https://github.com/Melgoris)
-# 
+<hr style="height:0.5px;">
 >### Skills
 >- HTML
 >- CSS (Basic)
 >- JavaScript (Basic)
 >- Git (Basic)
 >- React (Basic)
-# 
+<hr style="height:0.5px;">
 >#### Code example:
 In this kata you are required to, given a string, replace every letter with its position in the alphabet.
 If anything in the text isn't a letter, ignore it and don't return it.
@@ -43,12 +43,12 @@ If anything in the text isn't a letter, ignore it and don't return it.
 >     .join(' ')
 > }
 > ```
----
+<hr style="height:0.5px;">
 >#### Languages:
 >- Ukrainian - Native
 >- Russian - Intermediate
 >- English - `technical English
-## 
+<hr style="height:0.5px;">
 >#### Courses:
 >- RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 >- self-study 
