@@ -3,7 +3,7 @@
 >
 >Since childhood, I wanted to become a programmer, but I was very disappointed when I entered university because the education turned out to be very different from what I had imagined. I thought they would teach us to code like in the movies and books, but in reality, the curriculum was not much different from what we had in school. So I quickly gave it up and started drifting from one field to another, far from programming.
 >
->Later on, I launched several of my own websites, downloading free templates and customizing them to my liking using the F12 tools in Google Chrome and by editing the style files. I enjoyed it and became somewhat interested in web development. Of course, it was more of a hobby—whenever I had some free time, I would try to learn a bit. I liked JavaScript and everything related to it. I mainly chose it because it’s closely tied to the web, and it was interesting. Besides, when you build something, you can immediately see the result in the browser: _I changed the color of a button, cool!_ — instant dopamine.
+>Later on, I launched several of my own websites, downloading free templates and customizing them to my liking using the F12 tools in Google Chrome and by editing the style files. I enjoyed it and became somewhat interested in web development. Of course, it was more of a hobby—whenever I had some free time, I would try to learn a bit. I liked ***JavaScript*** and everything related to it. I mainly chose it because it’s closely tied to the web, and it was interesting. Besides, when you build something, you can immediately see the result in the browser: _I changed the color of a button, cool!_ — instant dopamine.
 >
 >Most of my attention was on ***JavaScript*** itself, and I usually looked for layouts online and modified them for my needs. I partially completed a couple of small courses on ***Udemy*** and also did self-learning through documentation and ***YouTube***. After I got a bit familiar with ***JavaScript***, I moved on to ***React***.
 >
@@ -14,6 +14,7 @@
 >- **Phone:** +38 068 0000000
 >- **E-mail:** web.vasilisa@gmail.com
 >- **Git-Hub:** [Melgoris](https://github.com/Melgoris)
+>- ***Discord:*** Anatoliy(@melgoris)
 <hr style="height:0.5px;">
 >### Skills
 >- HTML
