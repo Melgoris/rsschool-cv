@@ -2,13 +2,14 @@
 <html lang="en">
 
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400;1,600&display=swap"
-      rel="stylesheet" />
-    <link rel="stylesheet" href="/css/style.css" />
+      rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
 
     <link rel="stylesheet" href="./css/prism.css">
 
@@ -17,85 +18,88 @@
   </head>
 
   <body>
-
-    <aside class="sidebar">
-      <header class="sidebar-header">
-        <img class="profile-logo" src="./assets/img/avatar.png" alt="avatar">
-        <h1>Anatoliy Kolobok</h1>
-        <h3>Junior Front-End Developer</h3>
-      </header>
-      <div class="decor-line"></div>
-      <nav class="nav">
-        <ul>
-          <li><a class="menu-link" href="#about">About</a></li>
-          <li><a class="menu-link" href="#contacts">Contacts</a></li>
-          <li><a class="menu-link" href="#skills">Skills</a></li>
-          <li><a class="menu-link" href="#code">Code example</a></li>
-          <li><a class="menu-link" href="#languages">Languages</a></li>
-          <li><a class="menu-link" href="#courses">Courses</a></li>
-        </ul>
-      </nav>
-    </aside>
-
-
-    <div class="content">
-      <main class="main">
-        <section class="section" id="about">
-          <h2>About Myself</h2>
-          <p>
-            I have always been interested in programming, but my first experience at university was disappointing due to
-            an outdated and unstructured curriculum. Over time, I became more engaged with web development through
-            personal projects — customizing free templates, editing CSS/HTML with browser dev tools, and learning
-            JavaScript out of curiosity.
-
-            What began as a hobby slowly grew into a focused self-study path. I took several online courses (Udemy,
-            YouTube), experimented with front-end projects, and eventually started learning React.
-
-            Although my learning path was irregular, I’ve decided to take it seriously and build a solid foundation. I’m
-            now ready to apply myself consistently, and I see RS School as a great opportunity to grow through
-            structured learning and real practice.
-
-
-          </p>
-        </section>
-        <section class="section" id="contacts">
-          <h2>Contact information</h2>
+    <div class="wrapper">
+      <aside class="sidebar">
+        <header class="sidebar-header">
+          <img class="profile-logo" src="./assets/img/avatar.png" alt="avatar">
+          <h1>Anatoliy Kolobok</h1>
+          <h3>Junior Front-End Developer</h3>
+        </header>
+        <div class="decor-line"></div>
+        <nav class="nav">
           <ul>
-            <li>Location: Ukraine</li>
-            <li>Phone: +38 068 0000000</li>
-            <li>E-mail: web.vasilisa@gmail.com</li>
-            <li>Git-Hub: Melgoris</li>
-            <li>Discord: Anatoliy(@melgoris)</li>
+            <li><a class="menu-link" href="#about">About</a></li>
+            <li><a class="menu-link" href="#contacts">Contacts</a></li>
+            <li><a class="menu-link" href="#skills">Skills</a></li>
+            <li><a class="menu-link" href="#code">Code example</a></li>
+            <li><a class="menu-link" href="#languages">Languages</a></li>
+            <li><a class="menu-link" href="#courses">Courses</a></li>
           </ul>
-        </section>
-        <section class="section" id="skills">
-          <h2>Skills</h2>
+        </nav>
+      </aside>
+      <div class="content">
+        <main class="main">
+          <section class="section" id="about">
+            <h2>About Myself</h2>
+            <p>
+              I have always been interested in programming, but my first experience at university was disappointing due
+              to
+              an outdated and unstructured curriculum. Over time, I became more engaged with web development through
+              personal projects — customizing free templates, editing CSS/HTML with browser dev tools, and learning
+              JavaScript out of curiosity.
 
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Git </li>
-            <li>React</li>
-          </ul>
+              What began as a hobby slowly grew into a focused self-study path. I took several online courses (Udemy,
+              YouTube), experimented with front-end projects, and eventually started learning React.
 
-        </section>
-        <section class="section" id="code">
-          <h2>Code example</h2>
-          <p>
-            In this kata you are required to, given a string, replace every letter with its position in the alphabet. If
-            anything in the text isn’t a letter, ignore it and don’t return it. “a” = 1, “b” = 2, etc.
-          </p>
+              Although my learning path was irregular, I’ve decided to take it seriously and build a solid foundation.
+              I’m
+              now ready to apply myself consistently, and I see RS School as a great opportunity to grow through
+              structured learning and real practice.
 
-          <p>
-            <code class="language-javascript">Input = "The sunset sets at twelve o' clock."</code>
-          </p>
-          <p>
-            <code
-              class="language-javascript">Output = "20 8 5 19 21 14 19 5 20 19 5 20 19 1 20 20 23 5 12 22 5 15 3 12 15 3 11"</code>
-          </p>
 
-          <pre>
+            </p>
+          </section>
+          <section class="section" id="contacts">
+            <h2>Contact information</h2>
+            <ul>
+              <li class="content-icons icon-location">Location: Ukraine</li>
+              <li class="content-icons icon-phone">Phone: +38 068 0000000</li>
+              <li class="content-icons icon-email">E-mail:<a href="mailto:web.vasilisa@gmail.com" title="email">
+                  web.vasilisa@gmail.com</a></li>
+              <li class="content-icons icon-git-profile">Git-Hub:<a href="https://github.com/melgoris" title="github">
+                  Melgoris</a></li>
+              <li class="content-icons icon-discord">Discord: Anatoliy(@melgoris)</li>
+            </ul>
+          </section>
+          <section class="section" id="skills">
+            <h2>Skills</h2>
+
+            <ul>
+              <li class="content-icons icon-html">HTML</li>
+              <li class="content-icons icon-css">CSS</li>
+              <li class="content-icons icon-js">JavaScript</li>
+              <li class="content-icons icon-git">Git </li>
+              <li class="content-icons icon-react">React</li>
+            </ul>
+
+          </section>
+          <section class="section" id="code">
+            <h2>Code example</h2>
+            <p>
+              In this kata you are required to, given a string, replace every letter with its position in the alphabet.
+              If
+              anything in the text isn’t a letter, ignore it and don’t return it. “a” = 1, “b” = 2, etc.
+            </p>
+
+            <p>
+              <code class="language-javascript">Input = "The sunset sets at twelve o' clock."</code>
+            </p>
+            <p>
+              <code
+                class="language-javascript">Output = "20 8 5 19 21 14 19 5 20 19 5 20 19 1 20 20 23 5 12 22 5 15 3 12 15 3 11"</code>
+            </p>
+
+            <pre>
               <code class="language-javascript">
 function alphabetPosition(text) {
   return text
@@ -109,40 +113,41 @@ function alphabetPosition(text) {
 }</code>
             </pre>
 
-        </section>
-        <section class="section" id="languages">
-          <h2>Languages</h2>
-          <ul>
-            <li>Ukrainian - Native</li>
-            <li>Russian - Intermediate</li>
-            <li>English - `technical English</li>
-          </ul>
-        </section>
-        <section class="section" id="courses">
-          <h2>Courses</h2>
-          <ul>
-            <li>self-study</li>
-            <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
-          </ul>
-        </section>
+          </section>
+          <section class="section" id="languages">
+            <h2>Languages</h2>
+            <ul>
+              <li>Ukrainian - Native</li>
+              <li>Russian - Intermediate</li>
+              <li>English - technical English</li>
+            </ul>
+          </section>
+          <section class="section" id="courses">
+            <h2>Courses</h2>
+            <ul>
+              <li>self-study</li>
+              <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+            </ul>
+          </section>
 
-      </main>
+        </main>
 
-      <footer class="footer">
-        <div class="footer-content">
-          <p>© 2025 Anatoliy Kolobok</p>
-          <div class="social-icons">
-            <a href="https://github.com/Melgoris" target="_blank" title="GitHub" aria-label="GitHub">
-              <img src="./assets/img/github-mark.svg" alt="GitHub" />
-            </a>
-            <a class="rs-ico" href="https://rs.school/courses/javascript-preschool-ru" target="_blank" title="RSSchool"
-              aria-label="RSSchool">
-              <img src="./assets/img/rs-school-logo.svg" alt="RSSchool" />
-            </a>
+        <footer class="footer">
+          <div class="footer-content">
+            <p>© 2025 Anatoliy Kolobok</p>
+            <div class="social-icons">
+              <a href="https://github.com/Melgoris" target="_blank" title="GitHub" aria-label="GitHub">
+                <img src="./assets/img/github-mark.svg" alt="GitHub">
+              </a>
+              <a class="rs-ico" href="https://rs.school/courses/javascript-preschool-ru" target="_blank"
+                title="RSSchool" aria-label="RSSchool">
+                <img src="./assets/img/rs-school-logo.svg" alt="RSSchool">
+              </a>
+            </div>
           </div>
-        </div>
-      </footer>
+        </footer>
 
+      </div>
     </div>
     <script src="./js/prism.js"></script>
   </body>
