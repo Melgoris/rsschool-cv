@@ -1,0 +1,353 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Crimson Text", serif;
+  background-image: url("../assets/img/intersection.png");
+  background-repeat: repeat;
+  background-size: 200px;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-color: rgb(119 149 139 / 5%);
+  pointer-events: none;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 300px;
+  max-height: 800px;
+  background: #303030;
+  border-right: 1px solid #009356;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  z-index: 10;
+}
+
+.sidebar-header {
+  text-align: center;
+  color: #f1f1f1;
+}
+
+.sidebar-header h1,
+.sidebar-header h3 {
+  margin: 0;
+  display: inline-block;
+  padding: 0.5rem;
+  border-bottom: 1px solid #444444;
+  color: #e1e1e1;
+}
+
+.profile-logo {
+  border-radius: 50%;
+  border: 1px solid #005834;
+  margin-bottom: 1rem;
+  transition: opacity 0.3s ease;
+}
+
+.profile-logo:hover {
+  opacity: 80%;
+  transition: opacity 0.3s ease;
+}
+
+.decor-line {
+  display: block;
+  width: 300px;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #000000, transparent);
+  margin: 2rem auto;
+}
+
+.nav {
+  width: 200px;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.7rem;
+  font-size: 1.4rem;
+}
+
+.nav li {
+  width: 100%;
+  line-height: 25px;
+  border-bottom: 1px solid rgba(96, 96, 96, 0.2);
+  border-top: 1px solid rgba(96, 96, 96, 0.2);
+  /* padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem; */
+}
+
+.nav li:last-child {
+  border-bottom: none;
+}
+
+/*navigation tests*/
+.nav a {
+  position: relative;
+  display: inline-block;
+  color: aliceblue;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 1.3rem;
+}
+
+.nav a:active::after {
+  transform: scaleX(0.9);
+  opacity: 0.5;
+}
+
+.menu-link {
+  width: 100%;
+  text-align: center;
+  padding: 10px 5px;
+}
+
+.menu-link::before,
+.menu-link::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-color: #86937b;
+  border-style: solid;
+  transition: all 0.5s ease;
+}
+
+.menu-link::before {
+  top: 0;
+  left: 0;
+  border-width: 2px 0 0 2px;
+}
+
+.menu-link::after {
+  bottom: 0;
+  right: 0;
+  border-width: 0 2px 2px 0;
+}
+
+.menu-link:hover::before {
+  width: 0;
+  height: 91%;
+}
+
+.menu-link:hover::after {
+  width: 99%;
+  height: 0%;
+}
+
+/*navigation test*/
+.content {
+  min-height: 100vh;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  background: #e3e3e3;
+}
+
+.main {
+  flex: 1;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+.section {
+  font-size: 1.2rem;
+
+}
+
+.section li>a {
+  padding: 0px 5px;
+  text-decoration: none;
+  color: #78956a;
+  transition: color 0.3s ease;
+}
+
+.section li>a:hover {
+  color: #3b3b3b;
+
+}
+
+.section p {
+  position: relative;
+  padding: 0.5rem;
+  background-color: #e1e1e1;
+  color: #4e4e4e;
+  border-top: 1px solid #cbcbcb;
+  border-bottom: 1px solid #cbcb;
+}
+
+.section h2 {
+  position: relative;
+  padding-left: 1rem;
+  font-size: 1.6rem;
+  background-color: #d9d9d9;
+  color: #707070;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #c7c7c7;
+  border-left: 4px solid #009356;
+}
+
+.content-icons {
+  display: flex;
+  align-items: center;
+  min-height: 35px;
+  padding-left: 50px;
+  margin-bottom: 5px;
+  position: relative;
+  color: #5a5858;
+}
+
+.content-icons::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 26px;
+  height: 26px;
+  background-color: #57868b;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+}
+
+.icon-html::before {
+  -webkit-mask-image: url(../assets/icons/html5-brands.svg);
+  mask-image: url(../assets/icons/html5-brands.svg);
+}
+
+.icon-css::before {
+  -webkit-mask-image: url(../assets/icons/css3-brands.svg);
+  mask-image: url(../assets/icons/css3-brands.svg);
+}
+
+
+.icon-js::before {
+  -webkit-mask-image: url(../assets/icons/js-brands.svg);
+  mask-image: url(../assets/icons/js-brands.svg);
+}
+
+.icon-git::before {
+  -webkit-mask-image: url(../assets/icons/git-alt-brands.svg);
+  mask-image: url(../assets/icons/git-alt-brands.svg);
+}
+
+.icon-react::before {
+  -webkit-mask-image: url(../assets/icons/react-brands.svg);
+  mask-image: url(../assets/icons/react-brands.svg);
+}
+
+
+.icon-location::before {
+  -webkit-mask-image: url(../assets/icons/location-dot-solid.svg);
+  mask-image: url(../assets/icons/location-dot-solid.svg);
+}
+
+.icon-phone::before {
+  -webkit-mask-image: url(../assets/icons/phone-solid.svg);
+  mask-image: url(../assets/icons/phone-solid.svg);
+}
+
+.icon-email::before {
+  -webkit-mask-image: url(../assets/icons/square-envelope-solid.svg);
+  mask-image: url(../assets/icons/square-envelope-solid.svg);
+}
+
+.icon-git-profile::before {
+  -webkit-mask-image: url(../assets/icons/github-brands.svg);
+  mask-image: url(../assets/icons/github-brands.svg);
+}
+
+.icon-discord::before {
+  -webkit-mask-image: url(../assets/icons/discord-brands.svg);
+  mask-image: url(../assets/icons/discord-brands.svg);
+}
+
+.footer {
+  background: #e1e1e1;
+  color: #878787;
+  padding: 1rem;
+  border-top: 2px solid #d5d5d5;
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 2rem;
+}
+
+.social-icons img {
+  border: 2px solid transparent;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  transition: transform 0.5s ease, border 0.5s ease;
+}
+
+.rs-ico img {
+  border-radius: 0%;
+  width: 100px;
+  height: 40px;
+}
+
+.rs-ico img:hover {
+  border-bottom: 2px solid #3b3b3b;
+}
+
+.social-icons img:hover {
+  transform: scale(1.02);
+}
+
+/*fix prism*/
+.language-javascript {
+  background: #e1e1e1 !important;
+}
+
+.operator {
+  background: none !important;
+}
+
+.code-toolbar {
+  border-top: 1px solid #cbcbcb;
+  border-bottom: 1px solid #cbcb;
+}
+
+/*fix prism*/
