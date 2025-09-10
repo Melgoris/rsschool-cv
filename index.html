@@ -103,10 +103,10 @@ function alphabetPosition(text) {
   return text
     .toLowerCase()
     .split('')
-    .map(e => {
+    .map(e =&gt;{
       return 'abcdefghijklmnopqrstuvwxyz'.indexOf(e) + 1
     })
-    .filter(e => e &gt; 0)
+    .filter(e =&gt; e &gt; 0)
     .join(' ')
 }</code>
             </pre>
